@@ -162,5 +162,87 @@
       "price": "Free",
       "certificate": "Certificate paid separately"
     }
+  ],
+  "coursera": [
+    {
+      "name": "Introduction to Java",
+      "platform": "Coursera",
+      "rating": "4.1",
+      "price": "Free",
+      "certificate": "Certificate included",
+      "teacher": ""
+    },
+    {
+      "name": "Java Class Library",
+      "platform": "Coursera",
+      "rating": "4.1",
+      "price": "Free",
+      "certificate": "Certificate paid separately",
+      "teacher": ""
+    },
+    {
+      "name": "Object-Oriented Hierarchies in Java",
+      "platform": "Coursera",
+      "rating": "4.2",
+      "price": "Paid",
+      "certificate": "Certificate included",
+      "teacher": ""
+    },
+    {
+      "name": "Parallel Programming in Java",
+      "teacher": "Vivek Sarkar",
+      "platform": "Coursera",
+      "rating": "4.3",
+      "price": "Free",
+      "certificate": "Certificate included"
+    },
+    {
+      "name": "Concurrent Programming in Java",
+      "teacher": "Vivek Sarkar",
+      "platform": "Coursera",
+      "rating": "4.2",
+      "price": "Free",
+      "certificate": "Certificate paid separately"
+    },
+    {
+      "name": "Distributed Programming in Java",
+      "teacher": "Vivek Sarkar",
+      "platform": "Coursera",
+      "rating": "4.3",
+      "price": "Paid",
+      "certificate": "Certificate included"
+    },
+    {
+      "name": "Introduction to Software Testing",
+      "teacher": "Sanjai Rayadurgam",
+      "platform": "Coursera",
+      "rating": "4.0",
+      "price": "Free",
+      "certificate": "Certificate paid separately"
+    },
+    {
+      "name": "Introduction to Automated Analysis",
+      "teacher": "Kevin Wendt",
+      "platform": "Coursera",
+      "rating": "3.9",
+      "price": "Paid",
+      "certificate": "Certificate included"
+    },
+    {
+      "name": "Java Programming: Principles of Software Design",
+      "teacher": "Susan H. Rodger",
+      "platform": "Coursera",
+      "rating": "4.3",
+      "price": "Free",
+      "certificate": "Certificate included"
+    },
+    {
+      "name": "Web Development with Java Spring Framework",
+      "platform": "Coursera",
+      "rating": "3.8",
+      "price": "Free",
+      "certificate": "Certificate paid separately",
+      "teacher": ""
+    }
   ]
 }
