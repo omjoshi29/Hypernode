@@ -1,5 +1,8 @@
 const {Schema,model} = require("mongoose")
-let userSchema = new Schema({
+let catSchema = new Schema({
     name : String,
-    catid : [Schema.Types.ObjectId]
+    subcatid : [Schema.Types.ObjectId]
 })
+let category = model("category",catSchema)
+
+module.exports  = category;

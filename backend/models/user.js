@@ -4,4 +4,6 @@ let userSchema = new Schema({
     catid : [Schema.Types.ObjectId]
 })
 
-let User = model("user",user)
+let User = model("user",userSchema)
+
+module.exports  = User;

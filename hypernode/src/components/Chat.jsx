@@ -28,7 +28,25 @@ export const Chat = () => {
       />
       <button onClick={handleclick}>send</button>
       {message.map((el, index) => {
-        return <h3 key={index}>{el}</h3>;
+        return (
+          <div>
+            {el.client && <p> {el.client} : user</p>}
+            <p>bot : {el.server}</p>
+            {el.choice &&
+              el.choice.map((el) => {
+                return (
+                  <div>
+                    {" "}
+                    {!el.subcats && <p>{el.name}</p>}
+                    {el.subcats &&
+                      el.subcats.map((el) => {
+                        return <p>{el.name}</p>;
+                      })}
+                  </div>
+                );
+              })}
+          </div>
+        );
       })}
     </div>
   );
