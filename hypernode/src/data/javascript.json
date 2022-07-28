@@ -1,0 +1,84 @@
+{
+  "udemy": [
+    {
+      "name": "JavaScript Introduction to Object Oriented JavaScript",
+      "teacher": "Laurence Svekis",
+      "platform": "Udemy",
+      "rating": "4.2",
+      "certificate": "Certificate included",
+      "price": "Free"
+    },
+    {
+      "name": "Java Script for Beginners",
+      "teacher": "A. Obaidi",
+      "platform": "Udemy",
+      "rating": "4.2",
+      "certificate": "Certificate included",
+      "price": "Paid"
+    },
+    {
+      "name": "JavaScript for Beginners - The Complete introduction to JS",
+      "teacher": "Eden Marco",
+      "platform": "Udemy",
+      "price": "Free",
+      "certificate": "Certificate paid separately",
+      "rating": "4.6"
+    },
+    {
+      "name": "Basics of JavaScript coding",
+      "teacher": "Laurence Svekis",
+      "platform": "Udemy",
+      "rating": "4.4",
+      "certificate": "Certificate included",
+      "price": "Free"
+    },
+    {
+      "name": "Intro to JavaScript APIs",
+      "platform": "Udemy",
+      "certificate": "Certificate included",
+      "price": "Paid",
+      "rating": "4.2",
+      "teacher": ""
+    },
+    {
+      "name": "JavaScript Basics for Beginners",
+      "teacher": "Mosh Hamedani",
+      "platform": "Udemy",
+      "rating": "4.5",
+      "price": "Free",
+      "certificate": "Certificate paid separately"
+    },
+    {
+      "name": "Introduction to JavaScript Development",
+      "teacher": "Refactoru Llc",
+      "platform": "Udemy",
+      "rating": "4.5",
+      "price": "Free",
+      "certificate": "Certificate paid separately"
+    },
+    {
+      "name": "GraphQL for beginners with JavaScript",
+      "teacher": "James Moore",
+      "platform": "Udemy",
+      "rating": "4.5",
+      "certificate": "Certificate included",
+      "price": "Free"
+    },
+    {
+      "name": "Learn Vue 1 JS introduction to simple reactive JavaScript",
+      "teacher": "Laurence Svekis",
+      "platform": "Udemy",
+      "rating": "4.2",
+      "certificate": "Certificate included",
+      "price": "Paid"
+    },
+    {
+      "name": "A Gentle Introduction To JavaScript For Beginners",
+      "teacher": "Charlie Chiarelli",
+      "platform": "Udemy",
+      "rating": "4.3",
+      "price": "Free",
+      "certificate": "Certificate paid separately"
+    }
+  ]
+}
