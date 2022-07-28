@@ -80,5 +80,87 @@
       "rating": "4.1",
       "teacher": ""
     }
+  ],
+  "skillshare": [
+    {
+      "name": "Java For Beginners",
+      "teacher": "Technology Mania",
+      "platform": "Skillshare",
+      "rating": "4.0",
+      "price": "Free",
+      "certificate": "Certificate paid separately"
+    },
+    {
+      "name": "Introduction to Java Programming",
+      "teacher": "John Thompson",
+      "platform": "Skillshare",
+      "rating": "4.3",
+      "price": "Paid",
+      "certificate": "Certificate included"
+    },
+    {
+      "name": "Java programming for beginners",
+      "teacher": "Maid Rondić",
+      "platform": "Skillshare",
+      "rating": "4.1",
+      "price": "Free",
+      "certificate": "Certificate included"
+    },
+    {
+      "name": "Introduction to Java 8",
+      "teacher": "Matt Speake",
+      "platform": "Skillshare",
+      "rating": "4.2",
+      "price": "Free",
+      "certificate": "Certificate paid separately"
+    },
+    {
+      "name": "Java Programming Introduction for Beginners",
+      "teacher": "Caleb Curry",
+      "platform": "Skillshare",
+      "rating": "4.3",
+      "price": "Paid",
+      "certificate": "Certificate included"
+    },
+    {
+      "name": "Java For Beginners",
+      "teacher": "Michael Rascon",
+      "platform": "Skillshare",
+      "rating": "4.1",
+      "price": "Free",
+      "certificate": "Certificate included"
+    },
+    {
+      "name": "java programming basic syntax",
+      "teacher": "Yoel Fisher",
+      "platform": "Skillshare",
+      "rating": "4.0",
+      "price": "Free",
+      "certificate": "Certificate paid separately"
+    },
+    {
+      "name": "2021 Edition - A Java Spring Boot Microservices Project for Beginners",
+      "teacher": "Engineering Tech",
+      "platform": "Skillshare",
+      "rating": "4.3",
+      "price": "Paid",
+      "certificate": "Certificate included"
+    },
+    {
+      "name": "Java Fundamentals: The Java Programming Language",
+      "teacher": "Rupal Totale",
+      "platform": "Skillshare",
+      "rating": "4.1",
+      "price": "Free",
+      "certificate": "Certificate included"
+    },
+    {
+      "name": "Java Basics - For Complete Beginners",
+      "teacher": "Grant Klimaytys",
+      "platform": "Skillshare",
+      "rating": "4.4",
+      "price": "Free",
+      "certificate": "Certificate paid separately"
+    }
   ]
 }
