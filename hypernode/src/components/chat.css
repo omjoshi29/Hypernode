@@ -1,0 +1,44 @@
+.chatbox{
+    background-color: rgb(46, 12, 78);
+    border: 1px solid red;
+    width: 35%;
+    margin: auto;
+    padding: 5px;
+}
+.user{
+    padding: 5px;
+    background-color:violet;
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 10px;
+    border: 1px solid rgb(9, 9, 10);
+}
+.bot{
+    margin-top: 2px;
+    background-color: green;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 1px solid green;
+    border-radius: 10px;
+}
+
+.chatwindow{
+    height: 400px;
+    box-sizing: border-box;
+    overflow:scroll;
+}
+.chatip{
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.chatip>input{
+    height: 30px;
+    width: 70%;
+}
+
