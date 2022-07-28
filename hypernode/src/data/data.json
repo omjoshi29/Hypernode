@@ -1,0 +1,84 @@
+{
+  "udemy": [
+    {
+      "name": "Python Tutorial - Python for Beginners",
+      "teacher": "Venkata Adithya Kencham",
+      "platform": "Udemy",
+      "price": "Free",
+      "certificate": "Certificate not included",
+      "rating": "4.1"
+    },
+    {
+      "name": "Python For Beginners",
+      "platform": "Udemy",
+      "price": "Free",
+      "certificate": "Certificate not included",
+      "rating": "4.1",
+      "teacher": ""
+    },
+    {
+      "name": "Python for Beginners",
+      "teacher": "Mark Lassoff",
+      "platform": "Udemy",
+      "rating": "4.6",
+      "certificate": "Certificate included",
+      "price": "Paid"
+    },
+    {
+      "name": "Python for Beginners",
+      "platform": "Udemy",
+      "certificate": "Certificate included",
+      "price": "Paid",
+      "rating": "3.9",
+      "teacher": ""
+    },
+    {
+      "name": "Introduction to python",
+      "teacher": "Prof. Venkata L Raju Vatsavayi",
+      "platform": "Udemy",
+      "certificate": "Certificate included",
+      "price": "Paid",
+      "rating": "3.9"
+    },
+    {
+      "name": "Intro to Python",
+      "teacher": "Stem Helper",
+      "platform": "Udemy",
+      "rating": "4.1",
+      "price": "Free",
+      "certificate": "Certificate not included"
+    },
+    {
+      "name": "Python for Beginners",
+      "platform": "Udemy",
+      "certificate": "Certificate included",
+      "price": "Paid",
+      "rating": "4.2",
+      "teacher": ""
+    },
+    {
+      "name": "Python for New learners: Introduction to python programming",
+      "teacher": "Adeel Ahmad",
+      "platform": "Udemy",
+      "rating": "4.8",
+      "certificate": "Certificate included",
+      "price": "Paid"
+    },
+    {
+      "name": "Python in 3 Hours: Python Programming for Beginners",
+      "teacher": "Ajay R Warrier",
+      "platform": "Udemy",
+      "rating": "4.2",
+      "price": "Free",
+      "certificate": "Certificate included"
+    },
+    {
+      "name": "Hello Python - Python Programming for Beginners",
+      "teacher": "Rob Merrill",
+      "platform": "Udemy",
+      "rating": "4.5",
+      "certificate": "Certificate included",
+      "price": "Paid"
+    }
+  ]
+}
