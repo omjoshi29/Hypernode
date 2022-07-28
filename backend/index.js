@@ -16,8 +16,12 @@ io.on("connection", (ws) => {
   ws.on("message", (msg) => {
     console.log("client", msg);
     msgarr.push(msg);
-    io.emit("message", msg);
-  });
+    if(!msg){
+        ws.emit("message","please enter valid input")
+    }else{
+        io.emit("message", msg);
+    }
+});
 });
 
 app.use(express.urlencoded({ extended: true }));
