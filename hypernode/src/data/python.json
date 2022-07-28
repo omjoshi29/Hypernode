@@ -1,5 +1,5 @@
 {
-  "udemy": [
+  "python": [
     {
       "name": "Python Tutorial - Python for Beginners",
       "teacher": "Venkata Adithya Kencham",
@@ -79,9 +79,7 @@
       "rating": "4.5",
       "certificate": "Certificate included",
       "price": "Paid"
-    }
-  ],
-  "skillshare": [
+    },
     {
       "name": "Python 3: Programming in Python for Beginners",
       "teacher": "Arkadiusz Włodarczyk",
@@ -161,9 +159,7 @@
       "rating": "4.2",
       "price": "Free",
       "certificate": "Certificate paid separately"
-    }
-  ],
-  "coursera": [
+    },
     {
       "name": "Introduction to Data Analytics",
       "platform": "Coursera",

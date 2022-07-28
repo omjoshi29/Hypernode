@@ -1,5 +1,5 @@
 {
-  "udemy": [
+  "java": [
     {
       "name": "Complete Java Programming from Java Basics to Advanced Java",
       "teacher": "Muhammad Hamza Abdulrehman",
@@ -79,9 +79,7 @@
       "certificate": "Certificate paid separately",
       "rating": "4.1",
       "teacher": ""
-    }
-  ],
-  "skillshare": [
+    },
     {
       "name": "Java For Beginners",
       "teacher": "Technology Mania",
@@ -161,9 +159,7 @@
       "rating": "4.4",
       "price": "Free",
       "certificate": "Certificate paid separately"
-    }
-  ],
-  "coursera": [
+    },
     {
       "name": "Introduction to Java",
       "platform": "Coursera",

@@ -1,5 +1,5 @@
 {
-  "udemy": [
+  "javascript": [
     {
       "name": "JavaScript Introduction to Object Oriented JavaScript",
       "teacher": "Laurence Svekis",
@@ -79,9 +79,7 @@
       "rating": "4.3",
       "price": "Free",
       "certificate": "Certificate paid separately"
-    }
-  ],
-  "skillshare": [
+    },
     {
       "name": "JavaScript tutorial for beginners - JavaScript complete course",
       "teacher": "Abdull Waheed",
@@ -161,9 +159,7 @@
       "rating": "4.4",
       "price": "Free",
       "certificate": "Certificate paid separately"
-    }
-  ],
-  "coursera": [
+    },
     {
       "name": "Responsive Website Basics: Code with HTML, CSS, and JavaScript",
       "teacher": "Dr Matthew Yee-King",
