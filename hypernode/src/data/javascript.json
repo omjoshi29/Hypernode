@@ -80,5 +80,87 @@
       "price": "Free",
       "certificate": "Certificate paid separately"
     }
+  ],
+  "skillshare": [
+    {
+      "name": "JavaScript tutorial for beginners - JavaScript complete course",
+      "teacher": "Abdull Waheed",
+      "platform": "Skillshare",
+      "rating": "4.0",
+      "price": "Free",
+      "certificate": "Certificate paid separately"
+    },
+    {
+      "name": "Basics of JavaScript coding",
+      "teacher": "Laurence Svekis",
+      "platform": "Skillshare",
+      "rating": "4.2",
+      "certificate": "Certificate included",
+      "price": "Paid"
+    },
+    {
+      "name": "Basics of programming with javascript",
+      "platform": "Skillshare",
+      "certificate": "Certificate included",
+      "price": "Free",
+      "rating": "4.1",
+      "teacher": ""
+    },
+    {
+      "name": "Javascript Basics in Hindi||Urdu",
+      "teacher": "Programmer Kushal",
+      "platform": "Skillshare",
+      "rating": "4.2",
+      "price": "Free",
+      "certificate": "Certificate paid separately"
+    },
+    {
+      "name": "JavaScript For Beginners: A Complete Course",
+      "platform": "Skillshare",
+      "certificate": "Certificate included",
+      "price": "Paid",
+      "rating": "4.0",
+      "teacher": ""
+    },
+    {
+      "name": "Introduction to NodeJS: Back-End JavaScript",
+      "teacher": "Keegan Francis",
+      "platform": "Skillshare",
+      "rating": "4.2",
+      "certificate": "Certificate included",
+      "price": "Free"
+    },
+    {
+      "name": "javascript megacourse from basic and beginner to advanced with two real world javascript programming",
+      "teacher": "Adrien Thomas",
+      "platform": "Skillshare",
+      "rating": "4.2",
+      "price": "Free",
+      "certificate": "Certificate paid separately"
+    },
+    {
+      "name": "Asynchronous Javascript From Zero To Hero",
+      "teacher": "Islam Elgaedy",
+      "platform": "Skillshare",
+      "rating": "4.2",
+      "certificate": "Certificate included",
+      "price": "Paid"
+    },
+    {
+      "name": "JavaScript the Basics for Beginners- Section 8: ES6",
+      "teacher": "Rob Merrill",
+      "platform": "Skillshare",
+      "rating": "4.3",
+      "certificate": "Certificate included",
+      "price": "Free"
+    },
+    {
+      "name": "JavaScript the Basics for Beginners- Section 2: Objects",
+      "teacher": "Rob Merrill",
+      "platform": "Skillshare",
+      "rating": "4.4",
+      "price": "Free",
+      "certificate": "Certificate paid separately"
+    }
   ]
 }
