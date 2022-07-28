@@ -22,9 +22,9 @@ export const Chat = () => {
   };
 
   return <>
-  <div> <button>show</button>
-  <button>hide</button></div>
-    <div className="chatbox">
+  <div className="chatcontain">
+  <div className="botimage" onClick={()=>setshow(!show)}><img src="https://i.pinimg.com/originals/84/8c/34/848c342a56e7854dec45b9349c21dfe5.gif"/></div>
+    <div className={show?"chatbox":"chatfil"}>
       <div className="chatwindow">
       {message.map((el, index) => {
         return (
@@ -55,6 +55,6 @@ export const Chat = () => {
         onChange={(e) => setSend(e.target.value)}
       />
       <button onClick={handleclick}>send</button>
-    </div></div>
+    </div></div></div>
   </>
 };

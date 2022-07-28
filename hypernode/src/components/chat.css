@@ -1,9 +1,23 @@
+.chatcontain{
+border: 1px solid black;
+display: flex;
+align-items: flex-end;
+justify-content: space-around;
+width: 32%;
+padding: 10px;
+margin: auto;
+}
 .chatbox{
+    margin-top: 100px;
+    display: block;
     background-color: rgb(46, 12, 78);
-    border: 1px solid red;
-    width: 35%;
     margin: auto;
+    width: 80%;
     padding: 5px;
+    
+}
+.chatfil{
+visibility: hidden;
 }
 .user{
     padding: 5px;
@@ -12,7 +26,6 @@
     display: flex;
     justify-content: flex-end;
     border-radius: 10px;
-    border: 1px solid rgb(9, 9, 10);
 }
 .bot{
     margin-top: 2px;
@@ -22,7 +35,6 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    border: 1px solid green;
     border-radius: 10px;
 }
 
@@ -38,7 +50,21 @@
     justify-content: space-between;
 }
 .chatip>input{
+    border: none;
+    border-radius: 5px;
     height: 30px;
     width: 70%;
+    border: gray;
+}
+.chatip>button{
+   cursor: pointer;
+    height: 35px;
+    width: 25%;
+   color: blue;
+   border-radius: 10px;
+}
+.botimage>img{
+cursor: pointer;
+height: 80px;
 }
 
