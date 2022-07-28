@@ -5,14 +5,14 @@
       "teacher": "Venkata Adithya Kencham",
       "platform": "Udemy",
       "price": "Free",
-      "certificate": "Certificate not included",
+      "certificate": "Certificate paid separately",
       "rating": "4.1"
     },
     {
       "name": "Python For Beginners",
       "platform": "Udemy",
       "price": "Free",
-      "certificate": "Certificate not included",
+      "certificate": "Certificate paid separately",
       "rating": "4.1",
       "teacher": ""
     },
@@ -46,7 +46,7 @@
       "platform": "Udemy",
       "rating": "4.1",
       "price": "Free",
-      "certificate": "Certificate not included"
+      "certificate": "Certificate paid separately"
     },
     {
       "name": "Python for Beginners",
@@ -94,7 +94,7 @@
       "name": "Python Programming: Learn basics of Python",
       "platform": "Skillshare",
       "price": "Free",
-      "certificate": "Certificate not included",
+      "certificate": "Certificate paid separately",
       "rating": "4.1",
       "teacher": ""
     },
@@ -112,7 +112,7 @@
       "platform": "Skillshare",
       "rating": "4.2",
       "price": "Free",
-      "certificate": "Certificate not included"
+      "certificate": "Certificate paid separately"
     },
     {
       "name": "Python Tutorial for Beginners",
@@ -128,7 +128,7 @@
       "platform": "Skillshare",
       "rating": "4.1",
       "price": "Free",
-      "certificate": "Certificate not included"
+      "certificate": "Certificate paid separately"
     },
     {
       "name": "Python programming for beginners",
@@ -144,7 +144,7 @@
       "platform": "Skillshare",
       "rating": "4.3",
       "price": "Free",
-      "certificate": "Certificate not included"
+      "certificate": "Certificate paid separately"
     },
     {
       "name": "Python Code for Beginners",
@@ -160,7 +160,89 @@
       "platform": "Skillshare",
       "rating": "4.2",
       "price": "Free",
-      "certificate": "Certificate not included"
+      "certificate": "Certificate paid separately"
+    }
+  ],
+  "coursera": [
+    {
+      "name": "Introduction to Data Analytics",
+      "platform": "Coursera",
+      "price": "Free",
+      "certificate": "Certificate included",
+      "rating": "4.2",
+      "teacher": ""
+    },
+    {
+      "name": "Introduction to Self-Driving Cars",
+      "teacher": "Steven Waslander",
+      "platform": "Coursera",
+      "rating": "4.4",
+      "price": "Free",
+      "certificate": "Certificate included"
+    },
+    {
+      "name": "Advanced Django: Introduction to Django Rest Framework",
+      "platform": "Coursera",
+      "price": "Free",
+      "certificate": "Certificate included",
+      "rating": "4.2",
+      "teacher": ""
+    },
+    {
+      "name": "Data Processing Using Python",
+      "teacher": "ZHANG Li",
+      "platform": "Coursera",
+      "rating": "4.0",
+      "price": "Free",
+      "certificate": "Certificate paid separately"
+    },
+    {
+      "name": "Python and Statistics for Financial Analysis",
+      "teacher": "Xuhu Wan",
+      "platform": "Coursera",
+      "rating": "4.1",
+      "price": "Free",
+      "certificate": "Certificate paid separately"
+    },
+    {
+      "name": "Introduction to Accounting Data Analytics and Visualization",
+      "teacher": "Ronald Guymon",
+      "platform": "Coursera",
+      "rating": "4.5",
+      "price": "Free",
+      "certificate": "Certificate included"
+    },
+    {
+      "name": "Introduction to Reproducibility in Cancer Informatics",
+      "platform": "Coursera",
+      "price": "Free",
+      "certificate": "Certificate included",
+      "rating": "4.3",
+      "teacher": ""
+    },
+    {
+      "name": "Python for Data Science, AI & Development",
+      "teacher": "Joseph Santarcangelo",
+      "platform": "Coursera",
+      "rating": "4.3",
+      "price": "Free",
+      "certificate": "Certificate included"
+    },
+    {
+      "name": "Problem Solving, Python Programming, and Video Games",
+      "teacher": "Duane Szafron",
+      "platform": "Coursera",
+      "rating": "4.0",
+      "price": "Free",
+      "certificate": "Certificate paid separately"
+    },
+    {
+      "name": "Database Clients",
+      "platform": "Coursera",
+      "price": "Free",
+      "certificate": "Certificate included",
+      "rating": "4.3",
+      "teacher": ""
     }
   ]
 }
