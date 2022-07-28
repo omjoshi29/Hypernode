@@ -167,7 +167,7 @@
     {
       "name": "Introduction to Data Analytics",
       "platform": "Coursera",
-      "price": "Free",
+      "price": "Paid",
       "certificate": "Certificate included",
       "rating": "4.2",
       "teacher": ""
@@ -183,7 +183,7 @@
     {
       "name": "Advanced Django: Introduction to Django Rest Framework",
       "platform": "Coursera",
-      "price": "Free",
+      "price": "Paid",
       "certificate": "Certificate included",
       "rating": "4.2",
       "teacher": ""
@@ -215,7 +215,7 @@
     {
       "name": "Introduction to Reproducibility in Cancer Informatics",
       "platform": "Coursera",
-      "price": "Free",
+      "price": "Paid",
       "certificate": "Certificate included",
       "rating": "4.3",
       "teacher": ""

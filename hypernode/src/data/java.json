@@ -1,0 +1,84 @@
+{
+  "udemy": [
+    {
+      "name": "Complete Java Programming from Java Basics to Advanced Java",
+      "teacher": "Muhammad Hamza Abdulrehman",
+      "platform": "Udemy",
+      "price": "Free",
+      "certificate": "Certificate included",
+      "rating": "4.0"
+    },
+    {
+      "name": "Java Programming for Beginners: Become a Java Programmer",
+      "teacher": "Deepika Khanna",
+      "platform": "Udemy",
+      "rating": "4.4",
+      "price": "Paid",
+      "certificate": "Certificate included"
+    },
+    {
+      "name": "Java for beginners: Step-by-step hands-on guide to Java",
+      "teacher": "Tetranoodle Team",
+      "platform": "Udemy",
+      "rating": "4.3",
+      "price": "Free",
+      "certificate": "Certificate paid separately"
+    },
+    {
+      "name": "Java for Beginners: Your Easy Guide to Java Programming",
+      "teacher": "Video School Online Inc",
+      "platform": "Udemy",
+      "price": "Paid",
+      "certificate": "Certificate included",
+      "rating": "4.0"
+    },
+    {
+      "name": "Java for beginners (Core concepts): Easy course on Java",
+      "teacher": "Studyeasy Organisation",
+      "platform": "Udemy",
+      "rating": "4.3",
+      "price": "Free",
+      "certificate": "Certificate included"
+    },
+    {
+      "name": "ABC of Java (A Perfect Java course for beginner's)",
+      "platform": "Udemy",
+      "price": "Paid",
+      "certificate": "Certificate included",
+      "rating": "4.6",
+      "teacher": ""
+    },
+    {
+      "name": "Java Basics for Beginners",
+      "platform": "Udemy",
+      "price": "Free",
+      "certificate": "Certificate paid separately",
+      "rating": "4.5",
+      "teacher": ""
+    },
+    {
+      "name": "Introduction to Java Programming",
+      "teacher": "Ayeshmantha Madara Wijegunathileke",
+      "platform": "Udemy",
+      "rating": "4.2",
+      "price": "Paid",
+      "certificate": "Certificate included"
+    },
+    {
+      "name": "Java programming for beginners",
+      "platform": "Udemy",
+      "price": "Paid",
+      "certificate": "Certificate included",
+      "rating": "4.3",
+      "teacher": ""
+    },
+    {
+      "name": "Java Fundamentals for Beginners",
+      "platform": "Udemy",
+      "price": "Free",
+      "certificate": "Certificate paid separately",
+      "rating": "4.1",
+      "teacher": ""
+    }
+  ]
+}
