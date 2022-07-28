@@ -80,5 +80,87 @@
       "certificate": "Certificate included",
       "price": "Paid"
     }
+  ],
+  "skillshare": [
+    {
+      "name": "Python 3: Programming in Python for Beginners",
+      "teacher": "Arkadiusz Włodarczyk",
+      "platform": "Skillshare",
+      "rating": "4.5",
+      "certificate": "Certificate included",
+      "price": "Paid"
+    },
+    {
+      "name": "Python Programming: Learn basics of Python",
+      "platform": "Skillshare",
+      "price": "Free",
+      "certificate": "Certificate not included",
+      "rating": "4.1",
+      "teacher": ""
+    },
+    {
+      "name": "Introduction to Python",
+      "platform": "Skillshare",
+      "certificate": "Certificate included",
+      "price": "Paid",
+      "rating": "4.6",
+      "teacher": ""
+    },
+    {
+      "name": "Python Programming for Beginners: Learn Python in 3 Hours",
+      "teacher": "Prof. Bunny",
+      "platform": "Skillshare",
+      "rating": "4.2",
+      "price": "Free",
+      "certificate": "Certificate not included"
+    },
+    {
+      "name": "Python Tutorial for Beginners",
+      "teacher": "Kisilu Justus",
+      "platform": "Skillshare",
+      "rating": "4.1",
+      "certificate": "Certificate included",
+      "price": "Paid"
+    },
+    {
+      "name": "Python Programming for Beginners",
+      "teacher": "Bahbouh Code",
+      "platform": "Skillshare",
+      "rating": "4.1",
+      "price": "Free",
+      "certificate": "Certificate not included"
+    },
+    {
+      "name": "Python programming for beginners",
+      "teacher": "Fala francês com Jérôme",
+      "platform": "Skillshare",
+      "rating": "4.1",
+      "certificate": "Certificate included",
+      "price": "Paid"
+    },
+    {
+      "name": "Python Tutorial for beginners",
+      "teacher": "Shivprasad Koirala",
+      "platform": "Skillshare",
+      "rating": "4.3",
+      "price": "Free",
+      "certificate": "Certificate not included"
+    },
+    {
+      "name": "Python Code for Beginners",
+      "teacher": "Grant 'Angular' K",
+      "platform": "Skillshare",
+      "rating": "4.0",
+      "certificate": "Certificate included",
+      "price": "Paid"
+    },
+    {
+      "name": "Python 3 Programming: Your Guide to Basic Python Programming for Beginners",
+      "teacher": "Matthew Dewey",
+      "platform": "Skillshare",
+      "rating": "4.2",
+      "price": "Free",
+      "certificate": "Certificate not included"
+    }
   ]
 }
