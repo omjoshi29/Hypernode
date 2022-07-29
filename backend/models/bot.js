@@ -10,6 +10,7 @@ let botSchema = new Schema({
             _id : String
         }]
     }],
+    link : String
 })
 let Bot = model("Bot",botSchema)
 

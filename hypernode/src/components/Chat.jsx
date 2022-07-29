@@ -48,6 +48,7 @@ export const Chat = () => {
                       </div>
                       <div className="bottext">
                         <p className="ser">{el.server}</p>
+                        {el.link&&<a className="serlink" href={el.link}>link</a>}
                         {el.choice &&
                           el.choice.map((el) => {
                             return (

@@ -14,6 +14,9 @@
     font-size: 14px;
     padding-bottom: 50px;
 }
+.contacts>div>p{
+    margin-top: 10px;
+}
 .copyright{
     height: 80px;
     background-color:#1f1f29 ;
@@ -52,4 +55,7 @@
 }
 .copyright>div>img{
 height: 30px;
+}
+.site{
+    margin-top: 20px;
 }

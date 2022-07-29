@@ -13,10 +13,14 @@
     justify-content: space-between;
 }
 .searches{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
     text-align: left;
     width: 100%;
 }
 .maintitle{
+    margin-bottom: 10px;
     font-size: 30px;
     font-weight: 500;
 }
@@ -73,6 +77,7 @@
  padding: 10px;
  font-size: 12px;
  border-radius: 2px;
+ width: 150px;
 }
 .network{
     height: 600px;
@@ -87,5 +92,11 @@
     background-color:white;
     padding: 10px;
     font-size: 12px;
-    border-radius: 2px;  
+    border-radius: 2px; 
+    width : 150px 
+}
+.platformtext , .networktext{
+    display: flex;
+    flex-direction: column;
+    gap :20px
 }

@@ -70,6 +70,18 @@ io.on("connection", async (ws) => {
           io.emit("message", data);
         }
       });
+      sub.map((el)=>{
+        if(el.name==msg){
+          flag = true
+          let data = {
+            client: msg,
+            server: "below is the link to the selected courses",
+            link: `/${msg}`
+          };
+          Chatdata(data);
+          io.emit("message", data);
+        }
+        })
       if (flag == false) {
         let data = { client: "", server: "enter valid input" };
         ws.emit("message", data);
