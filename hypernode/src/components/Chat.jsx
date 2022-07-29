@@ -4,14 +4,14 @@ import { io } from "socket.io-client";
 import "./chat.css";
 
 export const Chat = () => {
-  let [message, setmessage] = useState([]);
+  let [message, setmessage] = useState([{server:"Hello user",client:""}]);
   let [send, setSend] = useState("");
   let [show, setshow] = useState(false);
   let socket = io("http://localhost:8080");
 
   useEffect(() => {
     socket.on("history", (msgarr) => {
-      setmessage(msgarr);
+      setmessage([...message,...msgarr]);
     });
   }, []);
 

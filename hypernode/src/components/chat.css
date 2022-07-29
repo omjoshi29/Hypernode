@@ -121,6 +121,8 @@
 }
 .reset > img {
   height: 20px;
+  width: 100%;
+  object-fit:contain;
 }
 .reset>img:active{
     transform: rotate(180deg)

@@ -35,8 +35,8 @@ io.on("connection", async (ws) => {
       let data = { client: msg, server: "which field do you want?", choice };
       Chatdata(data);
       io.emit("message", data);
-    } else if (msg === "reset") {
-      let del = await Bot.deleteMany({ server: { $ne: "Hello user" } });
+    } else if (msg === "reset") {                                 
+      let del = await Bot.deleteMany({});
       let chat = await Bot.find();
       io.emit("history", chat);
     } else if (msg) {
@@ -90,7 +90,7 @@ io.on("connection", async (ws) => {
     }
   });
 });
-
+// server: { $ne: "Hello user" } 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(cors());
