@@ -89,6 +89,6 @@ httpServer.listen(8080, async () => {
     await connection;
     console.log("connected");
   } catch (error) {
-    console.log("failed");
+    console.log("failed",error);
   }
 });
