@@ -15,9 +15,7 @@ const Chatdata = require("./utils/storing");
 const app = express();
 let httpServer = http.createServer(app);
 const io = new Server(httpServer, {
-  cors: {
-    origin: "http://localhost:3000",
-  },
+  cors: {},
 });
 
 io.on("connection", async (ws) => {
@@ -56,10 +54,10 @@ io.on("connection", async (ws) => {
               },
             },
             {
-              $project:{
-              subcats : 1,
-              }
-            }
+              $project: {
+                subcats: 1,
+              },
+            },
           ]);
           let data = {
             client: msg,
@@ -70,18 +68,18 @@ io.on("connection", async (ws) => {
           io.emit("message", data);
         }
       });
-      sub.map((el)=>{
-        if(el.name==msg){
-          flag = true
+      sub.map((el) => {
+        if (el.name == msg) {
+          flag = true;
           let data = {
             client: msg,
             server: "below is the link to the selected courses",
-            link: `/${msg}`
+            link: `/${msg}`,
           };
           Chatdata(data);
           io.emit("message", data);
         }
-        })
+      });
       if (flag == false) {
         let data = { client: "", server: "enter valid input" };
         ws.emit("message", data);
@@ -106,6 +104,6 @@ httpServer.listen(8080, async () => {
     await connection;
     console.log("connected");
   } catch (error) {
-    console.log("failed",error);
+    console.log("failed", error);
   }
 });
