@@ -8,7 +8,6 @@ export const Chat = () => {
   let [send, setSend] = useState("");
   let [show, setshow] = useState(false);
   let socket = io("https://hypernodebe.herokuapp.com");
-
   useEffect(() => {
     socket.on("history", (msgarr) => {
       setmessage([...message, ...msgarr]);

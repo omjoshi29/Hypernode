@@ -26,7 +26,7 @@ io.on("connection", async (ws) => {
   ws.on("message", async (msg) => {
     if (!msg) {
       ws.emit("message", { server: "give valid input", client: "" });
-    } else if (msg.includes("ello")) {
+    } else if (msg.includes("ello")||msg.includes("hi")) {
       let data = { client: msg, server: "what is your name?" };
       Chatdata(data);
       io.emit("message", data);
