@@ -55,6 +55,11 @@ io.on("connection", async (ws) => {
                 as: "subcats",
               },
             },
+            {
+              $project:{
+              subcats : 1,
+              }
+            }
           ]);
           let data = {
             client: msg,

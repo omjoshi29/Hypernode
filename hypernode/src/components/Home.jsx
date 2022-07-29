@@ -19,7 +19,7 @@ export const Home = () => {
                 />
                 <button className="searchbtn">Search</button>
               </div>
-              <p>Serving 129,896 products from</p>
+              <p>Serving 129,896 products from 50+ e-learning networks</p>
             </div>
             <div className="searchimg">
               <img src="https://cdn.classpert.com/assets/svg/brain-feeding-off-computers-0e44f73fca1a4f15df674a247bf046b239781e0b1b739ea24499995cf2011f04.svg" />

@@ -13,12 +13,6 @@ export const Chat = () => {
     socket.on("history", (msgarr) => {
       setmessage(msgarr);
     });
-    let id = setTimeout(() => {
-      setshow(true);
-    }, 2000);
-    return () => {
-      clearTimeout(id);
-    };
   }, []);
 
   let handleclick = () => {
