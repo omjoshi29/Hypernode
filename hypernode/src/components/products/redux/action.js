@@ -1,5 +1,14 @@
 import axios from "axios";
 
+export const COMPAREDATA = "COMPAREDATA";
+export const datacomp = (payload) => ({
+  type: COMPAREDATA,
+  payload,
+});
+export const comparecourses = (payload) => async (dispatch) => {
+  dispatch(datacomp(payload));
+};
+
 export const COURSEDATA = "COURSEDATA";
 export const coursedata = (payload) => ({
   type: COURSEDATA,

@@ -1,49 +1,57 @@
-.navbar{
+.navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 80px;
-    background: #1A2980;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-    
+    background: #1A2980;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #26D0CE, #1A2980);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #26D0CE, #1A2980);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-left: 50px;
+    padding-right: 50px;
 }
-.right>div>img{
+
+.right>div>img {
     height: 40px;
 }
-.right>div{
+
+.right>div {
     font-size: 20px;
     display: flex;
     align-items: center;
-    gap:10px;
+    gap: 10px;
     color: white;
 }
-.right{
+
+.right {
     width: 30%;
     display: flex;
     align-items: center;
     justify-content: space-around;
     color: white;
 }
-.left{
+
+.left {
     margin-right: 10px;
     display: flex;
     gap: 20px;
 }
 
-.select{
+.select {
     height: 35px;
     width: 150px;
     border: none;
     padding: 0 20px 0 20px;
     border-radius: 5px;
 }
-.login{
-cursor: pointer;
-padding: 0 30px 0 30px;
-border: 2px solid white;
-color: white;
-background-color:#25c6c9;
-border-radius: 5px;
+
+.login {
+    cursor: pointer;
+    padding: 0 30px 0 30px;
+    border: 2px solid white;
+    color: white;
+    background-color: #25c6c9;
+    border-radius: 5px;
 }

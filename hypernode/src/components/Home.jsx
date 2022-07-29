@@ -1,12 +1,23 @@
 import React from "react";
 import { Chat } from "./Chat";
 import "./home.css";
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 export const Home = () => {
+  const [search, setsearch] = useState("");
+  const navigate = useNavigate();
+  const handlechange = (e) => {
+    setsearch(e.target.value);
+  };
+  const handlesearch = () => {
+    navigate(`/${search}`);
+  };
+
   return (
     <>
       <div className="homepage">
-        <Chat/>
+        <Chat />
         <div className="homebox">
           <div className="searchcontain">
             <div className="searches">
@@ -16,8 +27,11 @@ export const Home = () => {
                 <input
                   type={"text"}
                   placeholder="What do you want to learn ?"
+                  onChange={handlechange}
                 />
-                <button className="searchbtn">Search</button>
+                <button className="searchbtn" onClick={handlesearch}>
+                  Search
+                </button>
               </div>
               <p>Serving 129,896 products from 50+ e-learning networks</p>
             </div>

@@ -34,9 +34,18 @@ export const Footer = () => {
                 src="http://assets.stickpng.com/images/60fea6773d624000048712b5.png"
                 alt=""
               />
-              <img src="https://www.freeiconspng.com/thumbs/linkedin-logo-png/displaying-19-gallery-images-for-linkedin-logo-png-25.png" alt="" />
-              <img src="https://www.seekpng.com/png/full/201-2012055_free-instagram-circle-icon-png-instagram-logo-black.png" alt="" />
-              <img src="https://www.pngkey.com/png/full/918-9188843_nl-twitter-twitter-icon-gray-circle.png" alt="" />
+              <img
+                src="https://www.freeiconspng.com/thumbs/linkedin-logo-png/displaying-19-gallery-images-for-linkedin-logo-png-25.png"
+                alt=""
+              />
+              <img
+                src="https://www.seekpng.com/png/full/201-2012055_free-instagram-circle-icon-png-instagram-logo-black.png"
+                alt=""
+              />
+              <img
+                src="https://www.pngkey.com/png/full/918-9188843_nl-twitter-twitter-icon-gray-circle.png"
+                alt=""
+              />
             </div>
           </div>
           <div className="site">
@@ -50,9 +59,11 @@ export const Footer = () => {
         </div>
       </div>
       <div className="copyright">
-        <p>Copyright © 2022 CourseXpert</p>
-        <div><img src="https://avatars.githubusercontent.com/u/49002615?s=200&v=4"/>
-        <p>CourseXpert</p></div>
+        <p>Copyright © 2022 TechXpert</p>
+        <div>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Logo_tx_group.png/1200px-Logo_tx_group.png?20200224103630" />
+          <p>TechXpert</p>
+        </div>
       </div>
     </div>
   );

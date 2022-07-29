@@ -10,6 +10,7 @@ import {
   fetchcourses,
   filtercourses,
   sortcourses,
+  comparecourses,
 } from "../products/redux/action";
 
 const Products = () => {
@@ -26,7 +27,13 @@ const Products = () => {
 
   let products = useSelector((state) => state.productsData);
   let allproducts = useSelector((state) => state.allproducts);
-  console.log("products:", products);
+  let copmcourse = useSelector((state) => state.compareobj);
+  console.log("obj:", copmcourse);
+
+  const comparepage = (el) => {
+    dispatch(comparecourses(el));
+    navigate(`/compare`);
+  };
 
   //filter by platform
   let obj1 = {};
@@ -225,14 +232,34 @@ const Products = () => {
                       </div>
 
                       <div
-                        style={
-                          el.price == "Free"
-                            ? { backgroundColor: "lightgreen" }
-                            : { backgroundColor: "lightcoral" }
-                        }
-                        className={prodstyles.priceDiv}
+                        style={{
+                          display: "flex",
+                          justifyContent: "space-between",
+                        }}
                       >
-                        <p>{el.price}</p>
+                        <p
+                          style={
+                            el.price == "Free"
+                              ? { backgroundColor: "lightgreen" }
+                              : { backgroundColor: "lightcoral" }
+                          }
+                          className={prodstyles.priceDiv}
+                        >
+                          {el.price}
+                        </p>
+                        <button
+                          style={{
+                            backgroundColor: "linen",
+                            padding: "10px",
+                            border: "none",
+                            fontWeight: "bold",
+                            borderRadius: "10px",
+                            cursor: "pointer",
+                          }}
+                          onClick={() => comparepage(el)}
+                        >
+                          COMPARE
+                        </button>
                       </div>
                     </div>
                   );
