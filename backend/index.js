@@ -37,9 +37,15 @@ io.on("connection", async (ws) => {
       let data = { client: msg, server: "which field do you want?", choice };
       Chatdata(data);
       io.emit("message", data);
+    } else if (msg === "reset") {
+      let del = await Bot.deleteMany({ server: { $ne: "Hello user" } });
+      let chat = await Bot.find();
+      io.emit("history", chat);
     } else if (msg) {
+      let flag = false;
       choice.map(async (el) => {
         if (msg === el.name) {
+          flag = true;
           let subs = await category.aggregate([
             {
               $lookup: {
@@ -59,8 +65,10 @@ io.on("connection", async (ws) => {
           io.emit("message", data);
         }
       });
-      let data = { client: "", server: "enter valid input" };
-      ws.emit("message", data);
+      if (flag == false) {
+        let data = { client: "", server: "enter valid input" };
+        ws.emit("message", data);
+      }
     } else {
       let data = { client: "", server: "enter valid input" };
       ws.emit("message", data);

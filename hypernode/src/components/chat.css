@@ -1,70 +1,105 @@
-.chatcontain{
-border: 1px solid black;
-display: flex;
-align-items: flex-end;
-justify-content: space-around;
-width: 32%;
-padding: 10px;
-margin: auto;
+.chatcontain {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  width: 40%;
+  padding: 10px;
+  margin: auto;
 }
-.chatbox{
-    margin-top: 100px;
-    display: block;
-    background-color: rgb(46, 12, 78);
-    margin: auto;
-    width: 80%;
-    padding: 5px;
-    
+.chatbox {
+  margin-top: 100px;
+  display: block;
+  margin: auto;
+  width: 80%;
+  padding: 5px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 25px;
 }
-.chatfil{
-visibility: hidden;
+.chatfil {
+  visibility: hidden;
 }
-.user{
-    padding: 5px;
-    background-color:violet;
-    color: black;
-    display: flex;
-    justify-content: flex-end;
-    border-radius: 10px;
+.user {
+  padding: 5px;
+  background-color: violet;
+  color: black;
+  border-radius: 15px 0px 15px 15px;
 }
-.bot{
-    margin-top: 2px;
-    background-color: green;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    border-radius: 10px;
+.userbox {
+  display: flex;
+  justify-content: flex-end;
 }
-
-.chatwindow{
-    height: 400px;
-    box-sizing: border-box;
-    overflow:scroll;
-}
-.chatip{
-    display: flex;
-    padding: 5px;
-    align-items: center;
-    justify-content: space-between;
-}
-.chatip>input{
-    border: none;
-    border-radius: 5px;
-    height: 30px;
-    width: 70%;
-    border: gray;
-}
-.chatip>button{
-   cursor: pointer;
-    height: 35px;
-    width: 25%;
-   color: blue;
-   border-radius: 10px;
-}
-.botimage>img{
-cursor: pointer;
-height: 80px;
+.bot {
+  margin-top: 2px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
+.chatwindow {
+  height: 500px;
+  box-sizing: border-box;
+  overflow: scroll;
+}
+.chatip {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  gap: 5px;
+  justify-content: space-between;
+  background-color: blueviolet;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.chatip > input {
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  width: 70%;
+  border: gray;
+}
+.chatip > button {
+  font-size: 18px;
+  cursor: pointer;
+  height: 35px;
+  width: 25%;
+  color: blueviolet;
+  border-radius: 10px;
+}
+.botimage > img {
+  cursor: pointer;
+  height: 250px;
+}
+.bottext {
+  line-height: 5px;
+  padding: 5px;
+  color: white;
+  background-color: green;
+  border-radius: 0px 20px 20px 20px;
+}
+.botex > img {
+  height: 40px;
+}
+
+.userbox > img {
+  height: 40px;
+}
+.upper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  font-size: 18px;
+  font-style: italic;
+  background-color: blueviolet;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.reset > img {
+  height: 30px;
+}
+.reset>img:active{
+    transform: rotate(180deg)
+}
