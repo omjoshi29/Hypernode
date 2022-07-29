@@ -4,14 +4,14 @@ import { io } from "socket.io-client";
 import "./chat.css";
 
 export const Chat = () => {
-  let [message, setmessage] = useState([{server:"Hello user",client:""}]);
+  let [message, setmessage] = useState([{ server: "Hello user", client: "" }]);
   let [send, setSend] = useState("");
   let [show, setshow] = useState(false);
-  let socket = io("http://localhost:8080");
+  let socket = io("https://hypernodebe.herokuapp.com");
 
   useEffect(() => {
     socket.on("history", (msgarr) => {
-      setmessage([...message,...msgarr]);
+      setmessage([...message, ...msgarr]);
     });
   }, []);
 
@@ -48,7 +48,11 @@ export const Chat = () => {
                       </div>
                       <div className="bottext">
                         <p className="ser">{el.server}</p>
-                        {el.link&&<a className="serlink" href={el.link}>link</a>}
+                        {el.link && (
+                          <a className="serlink" href={el.link}>
+                            link
+                          </a>
+                        )}
                         {el.choice &&
                           el.choice.map((el) => {
                             return (
