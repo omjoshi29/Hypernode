@@ -19,7 +19,7 @@ This is a team project, built by a team of 2 in 2 days.
 
 ### How To Use:
 
-First you have to have to go to the `Home Page`. There you can see a chatbot, you have to answer a few questions and then you will get a list of curated courses from the chatbot. On the courses page you can filter courses by platforms and sort courses by ratings. Clicking on COMPARE button redirects to compare page where you can compare the selected course with other courses.
+First you have to have to go to the Home Page. There you can see a `chatbot`, you have to answer a few questions and then you will get a list of curated courses from the chatbot. On the courses page you can `filter` courses by platforms and `sort` courses by ratings. Clicking on `COMPARE` button redirects to compare page where you can compare the selected course with other courses.
 
 ---
 
