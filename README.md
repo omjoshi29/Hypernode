@@ -1,4 +1,4 @@
-# TechXpert by Hypernode
+# TechXpert | Find and Compare Courses
 
 This is a team project, built by a team of 2 in 2 days.
 
